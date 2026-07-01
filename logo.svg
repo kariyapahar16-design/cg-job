@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Premium Gradients -->
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#172554" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Circle (Deep Navy Blue) -->
+  <circle cx="250" cy="250" r="230" fill="url(#blueGrad)" />
+
+  <!-- Inner Dotted Ring (Modern Look) -->
+  <circle cx="250" cy="250" r="215" fill="none" stroke="url(#orangeGrad)" stroke-width="6" stroke-dasharray="15, 12" />
+
+  <!-- Stylized Briefcase (Naukri Ka Symbol) -->
+  <!-- Handle -->
+  <path d="M 200 170 L 200 145 C 200 135, 300 135, 300 145 L 300 170" fill="none" stroke="url(#orangeGrad)" stroke-width="12" stroke-linecap="round" />
+  
+  <!-- Briefcase Body -->
+  <rect x="130" y="170" width="240" height="160" rx="20" fill="none" stroke="url(#orangeGrad)" stroke-width="12" />
+  
+  <!-- Rising Arrow Inside Briefcase (Growth and Careers Symbol) -->
+  <path d="M 180 280 L 225 235 L 265 265 L 315 210" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 285 210 L 315 210 L 315 240" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Bold "CG JOBS" Text -->
+  <text x="250" y="390" font-family="'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="4">CG JOBS</text>
+  
+  <!-- Orange "PORTAL" Subtext -->
+  <text x="250" y="420" font-family="'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#f97316" text-anchor="middle" letter-spacing="6">PORTAL</text>
+</svg>

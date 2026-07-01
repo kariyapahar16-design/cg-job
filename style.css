@@ -1,18 +1,28 @@
-/* Custom CSS */
-.job-item {
-    transition: all 0.2s ease-in-out;
+/* Custom Styles for preloader fade out */
+#preloader {
+    transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 
-.job-item:hover {
-    transform: translateY(-2px);
-    background-color: #f9fafb;
+#preloader.fade-out {
+    opacity: 0;
+    visibility: hidden;
 }
 
-/* Loading Spinner Animation */
+/* Spinner Custom Fallback (if tailwind delay occurs) */
+.spinner {
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
-.animate-spin {
-    animation: spin 1s linear infinite;
+
+/* Custom card hover effect */
+.job-item {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.job-item:hover {
+    transform: translateY(-2px);
 }

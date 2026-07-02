@@ -3,7 +3,7 @@
   
   <!-- Main Homepage -->
   <url>
-    <loc>https://kariyapahar16-design.github.io/cg-job/</loc>
+    <loc>https://cgjob.github.io/cg-job/</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -12,7 +12,7 @@
   <!-- Naye pages add karne ke liye niche wale section ko copy-paste karein aur URL change karein -->
   <!-- Example Page (Agar aapka koi 'about' page hai) -->
   <url>
-    <loc>https://kariyapahar16-design.github.io/cg-job/about.html</loc>
+    <loc>https://cgjob.github.io/cg-job/about.html</loc>
     <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
